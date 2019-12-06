@@ -13,6 +13,7 @@
 		00ACFB38239A0E0C003DCD30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00ACFB37239A0E0C003DCD30 /* Assets.xcassets */; };
 		00ACFB3B239A0E0C003DCD30 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00ACFB3A239A0E0C003DCD30 /* Preview Assets.xcassets */; };
 		00ACFB3E239A0E0C003DCD30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00ACFB3C239A0E0C003DCD30 /* LaunchScreen.storyboard */; };
+		00ACFB46239A0E3A003DCD30 /* Recorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ACFB45239A0E3A003DCD30 /* Recorder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		00ACFB3A239A0E0C003DCD30 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		00ACFB3D239A0E0C003DCD30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00ACFB3F239A0E0C003DCD30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00ACFB45239A0E3A003DCD30 /* Recorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recorder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +58,10 @@
 		00ACFB30239A0E0B003DCD30 /* AudioRecorder */ = {
 			isa = PBXGroup;
 			children = (
+				00ACFB35239A0E0B003DCD30 /* ContentView.swift */,
+				00ACFB45239A0E3A003DCD30 /* Recorder.swift */,
 				00ACFB31239A0E0B003DCD30 /* AppDelegate.swift */,
 				00ACFB33239A0E0B003DCD30 /* SceneDelegate.swift */,
-				00ACFB35239A0E0B003DCD30 /* ContentView.swift */,
 				00ACFB37239A0E0C003DCD30 /* Assets.xcassets */,
 				00ACFB3C239A0E0C003DCD30 /* LaunchScreen.storyboard */,
 				00ACFB3F239A0E0C003DCD30 /* Info.plist */,
@@ -149,6 +152,7 @@
 				00ACFB32239A0E0B003DCD30 /* AppDelegate.swift in Sources */,
 				00ACFB34239A0E0B003DCD30 /* SceneDelegate.swift in Sources */,
 				00ACFB36239A0E0B003DCD30 /* ContentView.swift in Sources */,
+				00ACFB46239A0E3A003DCD30 /* Recorder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
